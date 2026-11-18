@@ -1,2 +1,11 @@
-# AltAltAgent-releases
-AltAltAgent の配布用リポジトリ（実行ファイルのみ）
+# AltAltAgent releases
+
+AltAltAgent の配布用リポジトリです。実行ファイル（`AltAltAgent.exe`）だけを置いています。
+
+## 入手と更新
+
+- 最新版は [Releases](../../releases/latest) の `AltAltAgent.exe` です。
+- Windows 10/11（64bit）で動きます。インストールは不要で、ダウンロードしたファイルをダブルクリックするだけです。
+- バージョン 1.3.0 以降は、右下のアプリアイコンを右クリックして「更新を確認…」を選ぶと、最新版へ自動で入れ替わります。
+
+署名のないファイルのため、初回に Windows の警告が出ることがあります。「詳細情報」→「実行」で起動できます。
