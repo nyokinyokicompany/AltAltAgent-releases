@@ -4,6 +4,10 @@
 
 「ここのボタンの色を変えたい」「この表示がおかしい」といったことを、言葉だけで説明するかわりに、画面を丸で囲んで見せるために作りました。
 
+![撮影した画像に、矢印と「木がはえている」という文字を書き込んだ例](images/example.png)
+
+*書き込みの例：撮影した画像に、矢印と文字を入れたところ。これがそのままAIの入力欄に貼り付きます。*
+
 ### [⬇ 最新版をダウンロード（AltAltAgent.exe）](https://github.com/nyokinyokicompany/AltAltAgent-releases/releases/latest/download/AltAltAgent.exe)
 
 インストールは不要です。ダウンロードして、ダブルクリックするだけで使えます。
@@ -26,6 +30,7 @@
 - [プライバシーと通信](#プライバシーと通信)
 - [動作環境と確認状況](#動作環境と確認状況)
 - [アンインストール](#アンインストール)
+- [ライセンス](#ライセンス)
 
 ## どんなアプリ
 
@@ -222,3 +227,10 @@ Get-FileHash .\AltAltAgent.exe -Algorithm SHA256
 3. `AltAltAgent.exe` を削除します。
 
 設定は Windows のレジストリ（`HKEY_CURRENT_USER\Software\AltAltScreenshot`）に少しだけ残ります。気になる場合は、レジストリエディターで削除できます。
+
+## ライセンス
+
+[MIT License](LICENSE) です。個人でも仕事でも、自由に使えます。コピー・配布・改変も自由です。
+
+- 無保証です。使って生じたことについて、作者は責任を負いません。
+- `AltAltAgent.exe` には、Microsoft の .NET の実行環境が含まれています（MIT License）。
